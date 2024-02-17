@@ -9,3 +9,4 @@ include {
 inputs = {
     ip_cidr_range = "192.168.110.0/24"
 }
+
