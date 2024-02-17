@@ -1,1 +1,10 @@
 PAT: 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
+
+atlantis server \
+--atlantis-url="http://34.101.242.85" \
+--gh-user="adhithia21" \
+--gh-token="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" \
+--gh-webhook-secret="Atlantis#123" \
+--repo-allowlist="github.com/adhithia21/terraform-batch-11" \
+--port=80 \
+--repo-config="/etc/atlantis/config.yaml"
